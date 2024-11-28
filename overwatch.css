@@ -1,0 +1,346 @@
+html {
+
+    height: 100%;
+}
+
+body {
+
+    color: rgb(202, 192, 192);
+    background-image: url(IMGS/blue.avif);
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    margin: 40px;
+    height: 100%;
+
+
+}
+
+
+img {
+    border: 10px solid white;
+    padding: 10px;
+    margin: 10px;
+    border-style: inset;
+    border-radius: 50px;
+    width: 30%;
+    margin: calc(10/6);
+    height: 30%;
+
+}
+
+hr {
+    border: 3px solid #8d8484
+}
+
+
+#submit {
+
+    background-color: rgb(8, 23, 92);
+    color: #dbe4e1;
+    border: 5px solid;
+    font-size: 1em;
+}
+
+ul li a {
+
+    color: rgb(202, 192, 192);
+}
+
+
+
+
+
+#imgt:hover {
+    transition: background-color 3s ease-in;
+    opacity: 70%;
+    background-color: rgb(29, 17, 80);
+
+}
+
+#imgt {
+
+    width: 50%;
+    height: 50%;
+}
+
+#submit:hover {
+
+    border-color: #04000f;
+    color: white;
+    box-shadow: 0 0.5em 0.5em -0.4em #ff8a5c;
+    transform: translateY(-0.25em)
+}
+
+
+
+
+table {
+
+
+    border: 10px solid white;
+    padding: 5px;
+    margin: 5px;
+    border-style: inset;
+    border-radius: 50px;
+    font-style: italic;
+    border-radius: 50px;
+    width: 100%;
+
+
+
+}
+
+p {
+    margin: 20px;
+    padding: 5px;
+}
+
+.mainnav {
+
+
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    border: 10px solid white;
+    padding: 20px;
+    margin: 10px;
+    border-style: inset;
+    border-radius: 50px;
+    background-color: rgb(212, 212, 212);
+    border-color: rgb(202, 192, 192);
+
+
+
+
+
+}
+
+
+.navlogo {
+    background-image: url(IMGS/logo.jpeg);
+    justify-content: flex-start;
+    object-fit: scale-down;
+    border: 10px solid white;
+    padding: 10px;
+    margin: 10px;
+    border-style: inset;
+    border-radius: 50px;
+}
+
+.mainnav a {
+    color: rgb(17, 10, 10);
+    padding: 0 4px 0px 4px;
+}
+
+#herosearch {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.owtable {
+
+    font-family: "Roboto", sans-serif;
+    margin: 2em;
+    text-align: center;
+    font-weight: bold;
+}
+
+thead,
+tfoot {
+
+    background-image: url(IMGS/overwatch-banner.jpg);
+    color: white;
+    font-family: Rock Salt;
+    font-style: italic;
+    width: 100%;
+    height: 80px;
+
+}
+
+
+.nthrowodd:nth-of-type(odd) {
+    background-color: rgb(212, 212, 212)
+}
+
+.nthroweven:nth-of-type(even) {
+    background-color: rgb(185, 180, 180)
+}
+
+tbody {
+    color: #04000f;
+
+}
+
+#busan {
+
+    background-image: url(IMGS/Busan.webp);
+
+}
+
+#cr {
+    background-image: url(IMGS/Circuit_Royal.webp);
+
+}
+
+#dorado {
+    background-image: url(IMGS/Dorado.webp);
+
+}
+
+#havana {
+    background-image: url(IMGS/Havana.webp);
+
+}
+
+#ilios {
+    background-image: url(IMGS/Ilios.webp);
+
+}
+
+#junkertown {
+    background-image: url(IMGS/Junkertown.webp);
+
+}
+
+#lijang {
+    background-image: url(IMGS/Lijiang_Tower.webp);
+
+}
+
+#nepal {
+    background-image: url(IMGS/Nepal.webp);
+
+}
+
+#rialto {
+    background-image: url(IMGS/Rialto.webp);
+
+}
+
+.mappics {
+
+    border: 10px solid white;
+    padding: 16px;
+    margin: 10px;
+    border-style: inset;
+    border-radius: 50px;
+    flex-basis: 30%;
+    margin: calc(10/6);
+    height: 365px;
+    text-align: left;
+    box-sizing: border-box;
+
+
+
+
+
+}
+
+.container {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+
+
+
+
+}
+
+.mappicstext {
+
+    background-color: rgba(0, 0, 0, 0.6);
+    color: rgb(212, 212, 212);
+    padding: 2px 6px 2px 6px;
+    text-align: left;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+
+
+/*.characternav {
+    display: flex;
+    justify-content: flex-start;
+    border-style: inset;
+    border-radius: 50px;
+    color: #04000f;
+}
+
+.characternav a {
+
+    color: #04000f;
+}*/
+
+
+
+
+
+
+/*tracer.html winston.html moira.html reinhardt.html {
+    background-image: url(blue.avif);
+    background-size: cover;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(202, 192, 192);
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    .main {
+
+    display: flex;
+    width: 100%;
+    height: auto;
+    padding: 0 300px 0 300px;
+    box-sizing: border-box;
+}
+
+/*<table class="OWtable">
+
+    <tr>
+        <thead>
+            <th>Hero Name</th>
+            <th>Hero Class</th>
+            <th>Ultimate Ability</th>
+            <th>Country of Origin</th>
+            <th>Health</th>
+
+        </thead>
+    <tr>
+        <tbody>
+            <td>Tracer</td>
+            <td> DPS</td>
+            <td>Pulse bomb</td>
+            <td>United Kingdom</td>
+            <td>225</td>
+    </tr>
+
+    <tr>
+        <td>Winston</td>
+        <td>Tank</td>
+        <td>Primal Rage</td>
+        <td>Lunar colony</td>
+        <td>700</td>
+    </tr>
+
+    <tr>
+        <td>Tank</td>
+        <td>Hammer Down</td>
+        <td>Germany</td>
+        <td>700</td>
+
+    <tr>
+        <td>Moira</td>
+        <td>Support</td>
+        <td>Coalescence</td>
+        <td>Ireland</td>
+        <td>225</td>
+    </tr>
+    </tbody>
+</table>
